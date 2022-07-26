@@ -11,8 +11,8 @@ dotEnv.config()
 
 if (process.env.NODE_ENV === 'production') {
 	process.env.DATABASE_URL = 'postgresql://vladimir:89235275785Lol!@localhost:5432/app'
-	process.env.API_DOMAIN = 'https://45.147.178.215:5000/api'
-	process.env.CLIENT_DOMAIN = 'https://rokashkov.ru'
+	process.env.API_DOMAIN = 'http://45.147.178.215:5000/api'
+	process.env.CLIENT_DOMAIN = 'http://rokashkov.ru'
 }
 
 const PORT = process.env.PORT
